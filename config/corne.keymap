@@ -201,8 +201,8 @@
 
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R          &kp T        &kp Z      &kp U          &kp I         &kp O    &kp P      &kp BACKSPACE
-&kp LSHFT  &kp A  &kp S  &kp D     &kp F          &kp G        &kp H      &kp J          &kp K         &kp L    &kp COMMA  &kp SQT
-&kp LCTRL  &kp Y  &kp X  &kp C     &kp V          &kp B        &kp N      &kp M          &kp COMMA     &kp DOT  &kp FSLH   &kp RSHFT
+&kp LSHFT  &kp A  &kp S  &kp D     &kp F          &kp G        &kp H      &kp J          &kp K         &kp L    &kp SEMI   &kp SQT
+&kp LCTRL  &kp Y  &kp X  &kp C     &kp V          &kp B        &kp N      &kp M          &kp COMMA     &kp DOT  &kp COLON  &kp RSHFT
                          &kp LGUI  &hort 1 SPACE  &kp SPACE    &kp ENTER  &hort 2 SPACE  &kp LEFT_ALT
             >;
         };
@@ -217,9 +217,9 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp ESCAPE      &kp TAB    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0     &trans            &kp F11         &kp UP_ARROW    &kp F12    &kp QUESTION  &trans
-&kp LEFT_SHIFT  &kp COMMA  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PAGE_UP      &kp EQUAL         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp AT        &trans
-&trans          &trans     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PAGE_DOWN    &trans            &kp F1          &kp N2          &kp F2     &trans        &trans
+&kp ESCAPE      &kp TAB    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0     &trans            &kp F11         &kp F8        &kp F12  &kp QUESTION  &trans
+&kp LEFT_SHIFT  &kp COMMA  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PAGE_UP      &kp EQUAL         &kp F7          &kp F2        &kp F9   &kp AT        &trans
+&trans          &trans     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PAGE_DOWN    &trans            &kp F1          &kp N2        &kp F2   &trans        &trans
                                          &kp LGUI      &trans        &kp SPACE        &kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp LEFT_ALT
             >;
         };
@@ -234,10 +234,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp CARET      &kp EXCL          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DLLR         &kp PRCNT    &kp AMPS   &kp F11    &kp F8  &kp F12   &kp HASH  &kp DELETE
-&kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH    &kp GRAVE    &kp EQUAL  &kp F7     &kp F2  &kp F9    &kp PLUS  &kp ASTRK
-&kp PERIOD     &trans            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_ARROW  &kp TILDE    &kp POUND  &kp UNDER  &kp F1  &kp RBRC  &kp PIPE  &trans
-                                                       &kp LGUI               &trans           &kp SPACE    &kp RET    &trans     &trans
+&kp CARET       &kp EXCL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DLLR         &kp PRCNT    &kp AMPS   &kp F11    &kp UP_ARROW  &kp EQUAL  &kp QUESTION  &kp DELETE
+&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH    &kp SLASH    &kp EQUAL  &kp LEFT   &kp DOWN      &kp RIGHT  &kp PLUS      &kp ASTRK
+&kp LESS_THAN   &kp GT        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_ARROW  &kp TILDE    &kp POUND  &kp MINUS  &kp F1        &kp RBRC   &kp PIPE      &trans
+                                                    &kp LGUI               &trans           &kp SPACE    &kp RET    &trans     &trans
             >;
         };
 
